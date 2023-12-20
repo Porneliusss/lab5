@@ -1,0 +1,22 @@
+.schedule_item-tr{
+    border: 2px solid #b2a9a9;
+    transition: transform 0.3s ease;
+}
+.schedule_item-tr td{
+    padding: 1rem 1.2rem;
+    border: 2px solid #b2a9a9;
+    text-align: center;
+}
+
+.schedule_item-tr:hover{
+    border: 4px solid rgb(202, 133, 133);
+}
+
+.schedule_item-tr-hidden{
+    display: none;
+}
+
+[type=button-d]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), .button-d:not(:disabled) {
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Группа специалистов №1",
+        "members": [
+            {
+                "id": 1,
+                "img": "https://cdn.pixabay.com/photo/2021/01/18/17/22/man-5928801_1280.jpg",
+                "name": "Александр Александров",
+                "contact": "alex@example.com",
+                "experience": "2 года"
+            },
+            {
+                "id": 2,
+                "img": "https://cdn.pixabay.com/photo/2020/09/18/22/05/man-5583034_1280.jpg",
+                "name": "Петр Петров",
+                "contact": "petr@example.com",
+                "experience": "6 лет"
+            }
+        ],
+        "schedule": [
+            {
+                "imgp": "https://visma-stroy.by/wp-content/uploads/2022/08/bolt-visokoprochnie-2.png",
+                "id": "1",
+                "product": "Болт высокопрочный М10",
+                "date": "2023-01-01",
+                "time": "10:00"
+            },
+            {
+                "imgp": "https://visma-stroy.by/wp-content/uploads/2022/09/gaika-din-934-c.png",
+                "id": "2",
+                "product": "Гайка шестигранная М12",
+                "date": "2023-01-01",
+                "time": "11:00"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Группа специалистов №2",
+        "members": [
+            {
+                "id": 3,
+                "img": "https://avatars.mds.yandex.net/get-ydo/3937212/2a00000186bb0942613756076c0bbe4d9e57/diploma",
+                "name": "Александра Александрова",
+                "contact": "alexandra@example.com",
+                "experience": "4 года"
+            },
+            {
+                "id": 4,
+                "img": "https://фотограф-иван-щитенко.рф/wp-content/uploads/2021/11/img_3191.jpg",
+                "name": "Ольга Петрова",
+                "contact": "olga@example.com",
+                "experience": "5 лет"
+            }
+        ],
+        "schedule": [
+            {
+                "imgp": "https://visma-stroy.by/wp-content/uploads/2022/09/vinty-3.png",
+                "id": "3",
+                "product": "Винт мебельный М4",
+                "date": "2023-01-01",
+                "time": "12:00"
+            },
+            {
+                "imgp": "https://visma-stroy.by/wp-content/uploads/2022/10/dubel-fasadnyi-tsx.png",
+                "id": "4",
+                "product": "Дюбель фасадный TSX-S",
+                "date": "2023-01-01",
+                "time": "13:00"
+            }
+        ]
+    }
+]

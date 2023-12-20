@@ -1,0 +1,26 @@
+.question-container{
+    margin: 2rem 10rem;
+}
+.accordion.accordion-flush{
+    padding: 1rem 3rem;
+    background-color:  rgba(216, 134, 134, 0.723);
+    border-radius: 60px;
+}
+.accordion-item{
+    color: rgb(60, 48, 48);
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+.accordion-header button.accordion-button.collapsed {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 20px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease; 
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.accordion-header button.accordion-button.collapsed:hover {
+    background-color: #f3d4d4; 
+}

@@ -1,0 +1,84 @@
+.qualityControlsItem-title {
+    background-color: rgb(252, 224, 224);
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 80px; 
+    
+}
+
+.qualityControls-name {
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    color: rgb(59, 58, 58);
+    text-align: center;
+}
+
+.qualityControlsItem-member-container {
+    padding: 0 3rem 2rem;
+    color: rgb(59, 58, 58);
+    list-style: none;
+}
+
+.qualityControls-body-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qualityControls-member {
+    width: 70%;
+}
+
+.qualityControlsItem-member-container li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    background-color: rgb(255, 236, 236);
+    padding: 1rem 3rem;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.2);
+}
+
+.qualityControlsItem_member-name {
+    color: rgb(53, 53, 53);
+    font-size: 1.2rem;
+}
+
+.qualityControlsItem-schedule {
+    list-style: none;
+}
+
+.qualityControlsItem_schedule-title {
+    color: rgb(59, 58, 58);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.qualityControls_schedule-textbox {
+    padding: 1rem 1rem;
+    background-color: rgb(255, 236, 236);
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+p.qualityControlsItem_shedule {
+    margin-bottom: 0;
+}
+
+.qualityControlsItem-schedule li {
+    margin-right: 2rem;
+}
+
+.qualityControlsItem-schedule li hr {
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:1100px) {
+    .qualityControls-body-container {
+        display: block;
+    }
+
+    .qualityControls-member {
+        width: 100%;
+    }
+}

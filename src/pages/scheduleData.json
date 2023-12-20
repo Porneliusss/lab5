@@ -1,0 +1,30 @@
+[
+  {
+      "id": 1,
+      "product": "Болт высокопрочный М10",
+      "qualityControlDate": "2023-01-01",
+      "qualityControlTime": "10:00",
+      "status": "Прошел успешно"
+  },
+  {
+      "id": 2,
+      "product": "Гайка шестигранная М12",
+      "qualityControlDate": "2023-01-01",
+      "qualityControlTime": "11:00",
+      "status": "Не прошел"
+  },
+  {
+      "id": 3,
+      "product": "Винт мебельный М4",
+      "qualityControlDate": "2023-01-01",
+      "qualityControlTime": "12:00",
+      "status": "В ожидании"
+  },
+  {
+      "id": 4,
+      "product": "Дюбель фасадный TSX-S",
+      "qualityControlDate": "2023-01-01",
+      "qualityControlTime": "13:00",
+      "status": "В ожидании"
+  }
+]

@@ -1,0 +1,41 @@
+#about-us{
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+#about-us h2{
+    font-size: 2.5rem;
+    color: var(--header-text-color);
+    margin-bottom: 1.5rem;
+    color: black;
+    margin-left: 10px;
+}
+#about-us p{
+    color: rgb(78, 77, 77);
+    margin-bottom: 1rem;
+}
+
+.aboutUs-scroll_text{
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 900;
+    padding: 1rem 0;
+    text-align: center;
+    color: transparent;
+    animation: anim 10s infinite linear;
+}
+
+@keyframes anim{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+
+}
+@media screen and (max-width:810px){
+    #about-us img{
+        width: 70%;
+    }
+}
